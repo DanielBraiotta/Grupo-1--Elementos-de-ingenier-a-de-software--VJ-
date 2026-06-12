@@ -384,7 +384,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.46331118245140035,
+        "zoomFactor": 0.18305734955560132,
         "windowMask": false,
         "selectedLayer": "",
         "gameEditorMode": "instances-editor"
@@ -639,8 +639,8 @@
           "name": "FuelPowerUp",
           "persistentUuid": "72047ed8-37de-4f92-b341-0e525de93a26",
           "width": 0,
-          "x": 1042,
-          "y": 337,
+          "x": 933,
+          "y": 190,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -815,8 +815,8 @@
           "name": "MedKit",
           "persistentUuid": "37b9943d-fa77-4480-baab-00d1d43d3d34",
           "width": 0,
-          "x": 1055,
-          "y": 104,
+          "x": 1427,
+          "y": 164,
           "zOrder": 42,
           "numberProperties": [],
           "stringProperties": [],
@@ -831,8 +831,8 @@
           "name": "FuelPowerUp",
           "persistentUuid": "f6a39281-8261-48e5-8436-42600c8581aa",
           "width": 0,
-          "x": 647,
-          "y": 379,
+          "x": 281,
+          "y": 477,
           "zOrder": 43,
           "numberProperties": [],
           "stringProperties": [],
@@ -847,8 +847,8 @@
           "name": "FuelPowerUp",
           "persistentUuid": "d28c990e-a9a2-4b02-bcfe-1d2e4edd9433",
           "width": 0,
-          "x": 1422,
-          "y": 475,
+          "x": 1569,
+          "y": 437,
           "zOrder": 44,
           "numberProperties": [],
           "stringProperties": [],
@@ -912,9 +912,361 @@
           "name": "HUDTextRestart",
           "persistentUuid": "e58e0164-7638-4f9b-828b-5bde68964639",
           "width": 0,
-          "x": 921,
-          "y": 47,
+          "x": 920,
+          "y": 50,
           "zOrder": 48,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD Nave2",
+          "name": "HUDTextRestart",
+          "persistentUuid": "a8d480a5-071e-412d-81bb-ba684e0a8421",
+          "width": 0,
+          "x": 920,
+          "y": 50,
+          "zOrder": 49,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "HUD Nave5",
+          "name": "HUDTextRestart5",
+          "persistentUuid": "832f7bbf-bf8b-4274-ad45-cc4a9bfb6f71",
+          "width": 0,
+          "x": 920,
+          "y": 50,
+          "zOrder": 50,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 80,
+          "layer": "HUD Nave5",
+          "name": "VidaN_5",
+          "persistentUuid": "c20ca4e2-1d92-4101-93e8-38b49317da53",
+          "width": 500,
+          "x": 24,
+          "y": 40,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 80,
+          "layer": "HUD Nave5",
+          "name": "BarraCombustibleFondo_N5",
+          "persistentUuid": "c1881e79-5161-4abb-b9d0-35a23a548c51",
+          "width": 500,
+          "x": 24,
+          "y": 260,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 80,
+          "layer": "HUD Nave5",
+          "name": "BarraCombustible_N5",
+          "persistentUuid": "53b29f94-a860-4ed9-b8bc-ed70b08d31c3",
+          "width": 500,
+          "x": 24,
+          "y": 260,
+          "zOrder": 36,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 80,
+          "layer": "HUD Nave5",
+          "name": "HUDTextCombustible_N5",
+          "persistentUuid": "548dfb4d-93f6-4ece-9566-1f09fb01647d",
+          "width": 500,
+          "x": 24,
+          "y": 150,
+          "zOrder": 51,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FuelPowerUp",
+          "persistentUuid": "c8f1fc32-2923-4fcf-9941-c95eaf09f26d",
+          "width": 0,
+          "x": 420,
+          "y": -1852,
+          "zOrder": 52,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MedKit",
+          "persistentUuid": "d733ba23-fcf7-4e34-8e06-f03c841cb999",
+          "width": 0,
+          "x": 108,
+          "y": -2049,
+          "zOrder": 53,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FuelPowerUp",
+          "persistentUuid": "4f307c6e-8de9-414e-9804-58e36ba552a1",
+          "width": 0,
+          "x": 37,
+          "y": -2896,
+          "zOrder": 54,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FuelPowerUp",
+          "persistentUuid": "0a1b20c1-4b9b-4724-b14a-e92f28bd9def",
+          "width": 0,
+          "x": 993,
+          "y": -2732,
+          "zOrder": 55,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FuelPowerUp",
+          "persistentUuid": "5a1c311f-e3e8-4b7e-a65b-7470a0b941e2",
+          "width": 0,
+          "x": 1698,
+          "y": -1869,
+          "zOrder": 56,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FuelPowerUp",
+          "persistentUuid": "86c6fa1a-51c5-4dec-96c6-3f4a1b36754d",
+          "width": 0,
+          "x": 1862,
+          "y": -2852,
+          "zOrder": 57,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FuelPowerUp",
+          "persistentUuid": "b4d46b31-4d37-444a-8b08-612bd97d9be7",
+          "width": 0,
+          "x": 2004,
+          "y": -4327,
+          "zOrder": 58,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FuelPowerUp",
+          "persistentUuid": "8b06188d-8f03-409f-a1f6-557eac7cd25d",
+          "width": 0,
+          "x": 1261,
+          "y": -4392,
+          "zOrder": 59,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FuelPowerUp",
+          "persistentUuid": "17f58dc5-b213-40a6-bedb-d1836416ab1e",
+          "width": 0,
+          "x": 5,
+          "y": -4343,
+          "zOrder": 60,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FuelPowerUp",
+          "persistentUuid": "df08f8cf-6a39-4153-8817-1f371a6309f1",
+          "width": 0,
+          "x": 818,
+          "y": -5753,
+          "zOrder": 61,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FuelPowerUp",
+          "persistentUuid": "6db961ab-5c3f-49c1-a0b0-bde8e3af3d3b",
+          "width": 0,
+          "x": -187,
+          "y": -6621,
+          "zOrder": 62,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "FuelPowerUp",
+          "persistentUuid": "6f3e9bd9-d54c-4cd5-aeb2-164014667255",
+          "width": 0,
+          "x": 1987,
+          "y": -6468,
+          "zOrder": 63,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MedKit",
+          "persistentUuid": "2ac707d5-682f-46fc-bfbd-84cab8362751",
+          "width": 0,
+          "x": 425,
+          "y": -5266,
+          "zOrder": 64,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MedKit",
+          "persistentUuid": "c06024b0-5a9c-4f09-b80a-ac78fe0bd325",
+          "width": 0,
+          "x": 1796,
+          "y": -2180,
+          "zOrder": 65,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MedKit",
+          "persistentUuid": "e95e307c-5419-4065-84df-b66e62736e51",
+          "width": 0,
+          "x": 1288,
+          "y": -2060,
+          "zOrder": 66,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "keepRatio": true,
+          "layer": "",
+          "name": "MedKit",
+          "persistentUuid": "c4ff115c-4796-40ed-8b7a-06e85ec58130",
+          "width": 0,
+          "x": 480,
+          "y": 169,
+          "zOrder": 67,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1562,7 +1914,7 @@
           "string": "Fuel",
           "font": "",
           "textAlignment": "left",
-          "characterSize": 60,
+          "characterSize": 80,
           "color": {
             "b": 0,
             "g": 0,
@@ -1586,7 +1938,7 @@
             "font": "",
             "textAlignment": "left",
             "verticalTextAlignment": "top",
-            "characterSize": 60,
+            "characterSize": 80,
             "lineHeight": 0,
             "color": "0;0;0"
           }
@@ -2376,6 +2728,237 @@
             "lineHeight": 0,
             "color": "0;0;0"
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BarraCombustibleFondo_N5",
+          "persistentUuid": "870a411b-2759-4e11-abde-79e8437448fa",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite2",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "BarraCombustible_N5",
+          "persistentUuid": "964ae95f-2a1d-4dbc-823b-51a901b32db7",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "metadata": "{\"pskl\":{}}",
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "NewSprite3",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 0
+                          },
+                          {
+                            "x": 64,
+                            "y": 64
+                          },
+                          {
+                            "x": 0,
+                            "y": 64
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "HUDTextCombustible_N5",
+          "persistentUuid": "71c9cab7-a985-4bdd-9b40-5d081788baf6",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Fuel",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 80,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Fuel",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 80,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "HUDTextRestart5",
+          "persistentUuid": "51ce5d61-e697-4d71-80f1-fdc820a4cc14",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "Press R to restart",
+          "font": "",
+          "textAlignment": "left",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          },
+          "content": {
+            "bold": false,
+            "isOutlineEnabled": false,
+            "isShadowEnabled": false,
+            "italic": false,
+            "outlineColor": "255;255;255",
+            "outlineThickness": 2,
+            "shadowAngle": 90,
+            "shadowBlurRadius": 2,
+            "shadowColor": "0;0;0",
+            "shadowDistance": 4,
+            "shadowOpacity": 127,
+            "smoothed": true,
+            "underlined": false,
+            "text": "Press R to restart",
+            "font": "",
+            "textAlignment": "left",
+            "verticalTextAlignment": "top",
+            "characterSize": 40,
+            "lineHeight": 0,
+            "color": "0;0;0"
+          }
+        },
+        {
+          "assetStoreId": "b9685c526017062e7a580f9fc329d9618b5da9d03979b62db4de25cb3aa79e60",
+          "name": "VidaN_5",
+          "persistentUuid": "5068ba74-45eb-4bef-95c9-f819871bc96b",
+          "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
+          "variant": "Rounded Square Green Bar",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "InitialValue": 10,
+            "MaxValue": 10,
+            "BarTopPadding": 8,
+            "BarRightPadding": 10,
+            "BarBottomPadding": 8,
+            "BarLeftPadding": 10,
+            "PreviousHighValueDuration": 0
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -2398,6 +2981,26 @@
           {
             "folderName": "HUD Naves",
             "children": [
+              {
+                "folderName": "Nave5",
+                "children": [
+                  {
+                    "objectName": "BarraCombustible_N5"
+                  },
+                  {
+                    "objectName": "BarraCombustibleFondo_N5"
+                  },
+                  {
+                    "objectName": "HUDTextCombustible_N5"
+                  },
+                  {
+                    "objectName": "HUDTextRestart5"
+                  },
+                  {
+                    "objectName": "VidaN_5"
+                  }
+                ]
+              },
               {
                 "folderName": "Nave2",
                 "children": [
@@ -2572,6 +3175,34 @@
               "actions": [
                 {
                   "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "HUDTextCombustible_N5",
+                    "Text",
+                    "=",
+                    "\"Fuel: \" +\nToString(\nNave5.Variable(CombustibleActual)\n)"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResizableCapability::ResizableBehavior::SetWidth"
+                  },
+                  "parameters": [
+                    "BarraCombustible_N5",
+                    "Resizable",
+                    "=",
+                    "500 *\nNave5.Variable(CombustibleActual)\n/ Nave5.Variable(CombustibleMax)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
                     "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
                   },
                   "parameters": [
@@ -2617,6 +3248,34 @@
                     "VidaN_3",
                     "=",
                     "Nave4.Variable(VidaMax)",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetValue"
+                  },
+                  "parameters": [
+                    "VidaN_5",
+                    "=",
+                    "Nave5.Variable(VidaActual)",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PanelSpriteContinuousBar::PanelSpriteContinuousBar::SetMaxValue"
+                  },
+                  "parameters": [
+                    "VidaN_5",
+                    "=",
+                    "Nave5.Variable(VidaMax)",
                     ""
                   ]
                 }
@@ -2672,6 +3331,33 @@
                   "parameters": [
                     "",
                     "\"HUD Nave3\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneInstancesCount"
+                  },
+                  "parameters": [
+                    "Nave2",
+                    "Nave5",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"HUD Nave5\""
                   ]
                 }
               ]
@@ -3271,6 +3957,35 @@
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
+                    "Nave5",
+                    "CombustibleActual",
+                    "<",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "CombustibleActual",
+                    "=",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
                     "Nave2",
                     "CombustibleActual",
                     "<",
@@ -3375,6 +4090,45 @@
               "conditions": [
                 {
                   "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "FuelPowerUp",
+                    "FuelPowerUp",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "CombustibleActual",
+                    "+",
+                    "500"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "FuelPowerUp",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
@@ -3395,6 +4149,35 @@
                     "CombustibleActual",
                     "=",
                     "Nave4.Variable(CombustibleMax)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "CombustibleActual",
+                    ">=",
+                    "Nave5.Variable(CombustibleMax)"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "CombustibleActual",
+                    "=",
+                    "Nave5.Variable(CombustibleMax)"
                   ]
                 }
               ]
@@ -3484,42 +4267,6 @@
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
-                    "Nave2",
-                    "CombustibleActual",
-                    ">",
-                    "Nave2.Variable(CombustibleMax)*0.6"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::ChangeColor"
-                  },
-                  "parameters": [
-                    "HUDTextCombustible_N2",
-                    "\"0;255;0\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "BarraCombustible_N2",
-                    "\"0;255;0\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
                     "Nave4",
                     "CombustibleActual",
                     "<=",
@@ -3567,6 +4314,78 @@
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
+                    "Nave4",
+                    "CombustibleActual",
+                    "<=",
+                    "Nave4.Variable(CombustibleMax)*0.2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "HUDTextCombustible_N3",
+                    "\"255;0;0\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BarraCombustible_N3",
+                    "\"255;0;0\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave2",
+                    "CombustibleActual",
+                    ">",
+                    "Nave2.Variable(CombustibleMax)*0.6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "HUDTextCombustible_N2",
+                    "\"0;255;0\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BarraCombustible_N2",
+                    "\"0;255;0\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
                     "Nave2",
                     "CombustibleActual",
                     "<=",
@@ -3614,42 +4433,6 @@
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
-                    "Nave4",
-                    "CombustibleActual",
-                    "<=",
-                    "Nave4.Variable(CombustibleMax)*0.2"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextObject::ChangeColor"
-                  },
-                  "parameters": [
-                    "HUDTextCombustible_N3",
-                    "\"255;0;0\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ChangeColor"
-                  },
-                  "parameters": [
-                    "BarraCombustible_N3",
-                    "\"255;0;0\""
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "NumberObjectVariable"
-                  },
-                  "parameters": [
                     "Nave2",
                     "CombustibleActual",
                     "<=",
@@ -3673,6 +4456,125 @@
                   },
                   "parameters": [
                     "BarraCombustible_N2",
+                    "\"255;0;0\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "CombustibleActual",
+                    ">",
+                    "Nave5.Variable(CombustibleMax)*0.6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "HUDTextCombustible_N5",
+                    "\"0;255;0\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BarraCombustible_N5",
+                    "\"0;255;0\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "CombustibleActual",
+                    "<=",
+                    "Nave5.Variable(CombustibleMax)*0.6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "CombustibleActual",
+                    ">",
+                    "Nave5.Variable(CombustibleMax)*0.2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "HUDTextCombustible_N5",
+                    "\"255;255;0\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BarraCombustible_N5",
+                    "\"255;255;0\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "CombustibleActual",
+                    "<=",
+                    "Nave5.Variable(CombustibleMax)*0.2"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextObject::ChangeColor"
+                  },
+                  "parameters": [
+                    "HUDTextCombustible_N5",
+                    "\"255;0;0\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeColor"
+                  },
+                  "parameters": [
+                    "BarraCombustible_N5",
                     "\"255;0;0\""
                   ]
                 }
@@ -3756,6 +4658,35 @@
                     "value": "NumberObjectVariable"
                   },
                   "parameters": [
+                    "Nave5",
+                    "VidaActual",
+                    ">=",
+                    "Nave5.VidaMax"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "VidaActual",
+                    "=",
+                    "Nave5.VidaMax"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
                     "Nave2",
                     "VidaActual",
                     "<=",
@@ -3797,6 +4728,33 @@
                   },
                   "parameters": [
                     "Nave4",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "NumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "VidaActual",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "Nave5",
                     ""
                   ]
                 }
@@ -3865,6 +4823,35 @@
                   },
                   "parameters": [
                     "Nave4",
+                    "VidaActual",
+                    "-",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Physics2::CollisionStarted"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "Physics2",
+                    "Obstaculo",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave5",
                     "VidaActual",
                     "-",
                     "1"
@@ -3946,6 +4933,45 @@
                   },
                   "parameters": [
                     "Nave4",
+                    "VidaActual",
+                    "+",
+                    "2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Delete"
+                  },
+                  "parameters": [
+                    "MedKit",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Nave5",
+                    "MedKit",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetNumberObjectVariable"
+                  },
+                  "parameters": [
+                    "Nave5",
                     "VidaActual",
                     "+",
                     "2"
@@ -4154,7 +5180,61 @@
           "isLocked": false,
           "name": "HUD Nave3",
           "renderingType": "",
-          "visibility": true,
+          "visibility": false,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Ambient Hemisphere Light",
+              "doubleParameters": {
+                "elevation": 40,
+                "intensity": 0.33,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "groundColor": "127;127;127",
+                "skyColor": "255;255;255",
+                "top": "Z+"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Scene3D::DirectionalLight",
+              "name": "3D Sun Light",
+              "doubleParameters": {
+                "distanceFromCamera": 1500,
+                "elevation": 40,
+                "frustumSize": 4000,
+                "intensity": 0.75,
+                "minimumShadowBias": 0,
+                "rotation": 300
+              },
+              "stringParameters": {
+                "color": "255;255;255",
+                "shadowQuality": "medium",
+                "top": "Z+"
+              },
+              "booleanParameters": {
+                "isCastingShadow": true
+              }
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera2DPlaneMaxDrawingDistance": 5000,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "cameraType": "",
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "HUD Nave5",
+          "renderingType": "",
+          "visibility": false,
           "cameras": [],
           "effects": [
             {
